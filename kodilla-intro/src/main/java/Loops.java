@@ -20,5 +20,15 @@ public class Loops {
         }
 
         System.out.println(sum);
+
+        int i = 0;
+        while (i <= 10) {
+            System.out.println(i);
+            i++;
+        }
+
+
     }
+
+
 }

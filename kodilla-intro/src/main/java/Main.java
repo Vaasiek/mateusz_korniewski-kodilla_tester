@@ -8,5 +8,6 @@ public class Main {
         String hello = "Hello from FirstClass!";
         System.out.println(myAge);
         System.out.println(hello);
+        System.out.println(isGoodProgrammer);
     }
 }
