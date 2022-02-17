@@ -28,12 +28,16 @@ public class User {
         User[] users = {mateusz, klaudia, weronika, pawel, basia, klemens};
 
         int result = 0;
-        for (int i = 0; i < users.length; i++); {
+        for (int i = 0; i <= users.length; i++) {
             result = result + users[this.age];
         }
 
         int average = result / users.length;
 
-        for
+        for (int a = 0; users.length; a++) {
+            if (this.age < average) {
+                System.out.println(this.name[a]);
+            }
+        }
     }
 }
