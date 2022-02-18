@@ -1,5 +1,5 @@
 public class Grades {
-    private int[] grades;
+    private int grades[];
     private int size;
 
     public Grades() {
@@ -16,10 +16,16 @@ public class Grades {
     }
 
     public void lastGrade() {
-        System.out.println(this.grades[this.size]);
+        System.out.println(this.grades[this.grades.length-1]);
     }
 
     public void averageGrade() {
-        System.out.println(this.grades / this.size);
+        int sum = 0;
+
+        for (int i = 0; i < this.grades.length; i++) {
+            sum = sum + this.grades[i];
+        }
+
+        System.out.println(sum / grades.length);
     }
 }
