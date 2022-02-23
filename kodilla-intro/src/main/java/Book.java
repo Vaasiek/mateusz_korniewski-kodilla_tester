@@ -4,6 +4,8 @@ public class Book {
     private String title;
 
     public static String of(String author, String title) {
+        this.author = author;
+        this.title = title;
         return author + ", " + title;
     }
 
